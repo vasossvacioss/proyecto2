@@ -66,6 +66,7 @@
 /* fin de barra de menu*/
 
 
+
 /* pie de  pagina*/
 
 .container{
@@ -130,57 +131,57 @@ ul{
 }
 /*fin pie de pagina*/
 
-/*categorias*/
-.categorias{
-    height: 80px;
-    background-color: brown;
-    text-align: center;
-    justify-content: center;
-    padding: 20px;
-    font-weight: bold;
-    font-family: 'Piedra', cursive;
-    color: beige;
-    margin:0 20px;
-}
+/*contenido vender formulario*/
 
-
-/*Contenido Electronica*/
-
-.producto{
-   
-    width: 430px;
-    height: 300px;
-}
-
-div .muestra{
-    padding-left: 80px;
-    padding-right: 80px;
-    width: 480;
-    height: 400px;
-    padding: 2px;
-    border :solid brown 2px;
+form{
+    width:500px;
+    height: 1000px;
+    margin:auto;
+    background:brown;
+    padding: 10px 20px;
+    box-sizing: border-box;
     margin-top: 20px;
-    padding-top: 20px;
-}
-
- .comprar{
-   background:brown;
-}
-.container .col{
-   
-    padding-top: 20px;
 
 }
+h3{
+    font-family: 'Piedra', cursive;;
+    color: beige;
+    text-align:center;
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: 17px;
+    border:solid black  0.5px;
+    }
 
-.col h3{
-    text-align: center;
+
+textarea{ width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: 17px;
+    border:solid black 0.5px;
+
+}  
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
 }
-.col .cantidad{
-    height: 30px;
-    width: 60px;
+
+#boton{
+    background: darkgoldenrod;
+    color:beige;
+    padding: 20px;
 }
-.col div .botones {
-    justify-content: center;
+
+#boton:hover{
+    cursor:pointer
 }
 
 

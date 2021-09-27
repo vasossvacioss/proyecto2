@@ -87,7 +87,9 @@ ul{
    padding: 0 15px;
 }
 .col h4{
-	font-size: 18px;
+    font-family: 'Piedra', cursive;;
+    padding: 0px 120px;
+	font-size: 25px;
 	color: #ffffff;
 	text-transform: capitalize;
 	margin-bottom: 35px;
@@ -107,11 +109,16 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-
-.col .redes a{
+.col ul{
+    padding: 0px 75px;
+}
+.redes{
+    padding: 0px 100px;
+}
+.col .redes li a{
 	display: inline-block;
     text-decoration: none;
-    list-style: none;
+    list-style:none;
     font-size: medium;
 	height: 30px;
 	width: 30px;
@@ -121,6 +128,7 @@ ul{
 	transition: all 0.5s ease;
 }
 /*fin pie de pagina*/
+
 
 /*Contenido Registro*/
 
