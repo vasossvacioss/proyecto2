@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*carusel*/
+.carousel-inner img{
+    width: 800px;
+    height: 800px;
+   
+   
+   }
+   .carousel .carousel-inner{
+      height: 500px;
+       
+   }
+   .carousel-inner h5  {
+       color: white;
+   }
+   .carousel-inner p  {
+       color: white;
+   }
+   
+   /*galeria de productos*/
+   
+   .container_categ{
+   
+       margin-top: 1500px;
+       display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+       grid-auto-rows: minmax(200px, auto);
+       gap: 20px;
+       padding: 20px;
+       grid-auto-flow: dense;
+   }
+   
+   .fotos{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: transform 0.2s ease-in-out;
+       border-radius: 5px;
+       
+   }
+   
+   .container_categ img{
+     
+       width: 309px;
+       height: 235px ;
+   }
+   
+   .ancho{
+       grid-column: span 2;
+   }
+   .alto{
+       grid-row: span 3;
+   }
+    /*fin categorias*/
+
+   .container_categ h2{
+       text-align: center;
+       font-weight: bold;
+       font-family:Arial, Helvetica, sans-serif;
+       color:black;
+   }
+   .container_categ ul{
+       list-style: none;
+   }
+   .categorias{
+       height: 80px;
+       background-color: brown;
+       text-align: center;
+       justify-content: center;
+       padding: 20px;
+       font-weight: bold;
+       font-family: 'Piedra', cursive;
+       color: beige;
+       margin:0 20px;
+   }
+   
+   .categorias1{
+       height: 80px;
+       background-color: brown;
+       text-align: center;
+       justify-content: center;
+       padding: 20px;
+       font-weight: bold;
+       font-family: 'Piedra', cursive;
+       color: beige;
+       margin:0 20px;
+   }
+   
+   .carusel{
+       padding-right: 10px;
+       padding-left: 10px;
+       padding-top:10px ;
+       padding-bottom: 10px;
+       border: solid black 1px;
+   }
+   
+   
+   .libros{
+       padding-left: 60px;
+       justify-content: center;
+       
+   }
+   .libros .row  .col{
+       padding-left: 80px;
+       padding-top: 10px;
+   
+   }
+   .card{
+       width: 200px;
+   }
+   
+   .card img{
+       padding-left: 30px;
+       width: 400px;
+       height: 587px;
+   }
+   
+   .card-group{
+       width: 1500px;
+       padding-left: 10px;
+       padding-right: 200px;
+       
+    
+   }
+   /*navegacion*/
+body{
+    background-color: beige;
+}
+
+.navegacion{
+  background-color: #338819;
+  height: 100px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top:0;
+  left:0;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 992px;
+  margin: 0 auto
+
+}
+
+.nav-1{
+  align-content: center;
+  color: #dddede;
+  text-decoration: none;
+}
+
+.logo{
+  font-size: 35px;
+  font-weight: bold;
+  padding-right:  400px;
+  
+  line-height: 100px ;
+  width: max-content;
+}
+
+.menu{
+    padding-left: 100px;
+  margin-left: 20px; 
+  display:flex;
+  
+  list-style: none;
+}
+
+.menu-item{
+  font-size: 20px ;
+  margin: 0 50px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.menu-link:hover{
+  background-color: #a5c05b;
+  transition: 0.5s;
+}
+
+.menu-link{
+  
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+
+.nav .hamburguesa{
+  color:#a5c05b;
+  background-color: #7ba4a8;
+  border:none;
+  font-size: 25px;
+  padding: 0 10px;
+  line-height: 70px;
+  display: none;
+  
+}
+
+
+
+@media (max-width: 768px){
+
+  *{
+      margin:0;
+      box-sizing: border-box;
+  }
+  
+  body{
+     
+      padding-top: 65px;
+  
+  }
+  
+  .navegacion{
+
+      height: 70px;
+      
+  }
+  
+
+  .logo{
+      font-size: 24px;
+      font-weight: bold;
+      padding: 0 35px;
+      line-height: 70px ;
+      width: max-content;
+  }
+  
+  .menu{
+      flex-direction: column;
+      align-items: center;
+      margin-right: 25px;
+      list-style: none;
+      background-color: #a5c05b;
+      position: fixed;
+      left: 0px;
+      top:70px;
+      width: 100%;
+      padding: 20px 0;
+
+      height: calc(100% - 70px);
+      overflow-y: auto;
+
+ 
+      transition: left 0.2s;
+
+      cursor: pointer;
+      
+  }
+  
+
+  
+  .menu-link:hover{
+      background-color: none;
+      color: #7ba4a8;
+  }
+  
+  .menu-link{
+      padding: 10px 15px;
+      border-radius: 5px;
+  }
+  
+
+  .nav .hamburguesa{
+      
+      display: block;
+      
+  }
+
+.menu_visible{
+
+      left: 0;
+
+  }
+
+
+
+}
+.barra__divisoria{
+    margin-top: 200px;
+    width: 90%;
+    height: 80px;
+    background-color: green;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+    font-family: 'Piedra', cursive;
+    color: beige;
+    margin-left: 70px;
+    border-radius: 15px;
+
+
+}

@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*barra de menu*/
+
+.barra{
+    background-color: brown;
+    height: 100px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin:0 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 100%;
+   
+}
+
+.nav2{
+    color:cornsilk;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Piedra', cursive;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: bold;
+    line-height: 20px ;
+
+}
+
+.menu{
+    display: flex;
+    margin-right: 60px;
+    list-style: none;
+    margin:0 20px;
+}
+
+.nav-menu{
+    padding: 20px;
+    font-size: 15px;
+    margin:20px;
+    line-height: 60px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.link{
+    padding: 5px 9px;
+    border-radius:2px ;
+
+}
+.link:hover{
+    background-color:gold;
+    transition: 0.5s;
+}
+
+
+/* fin de barra de menu*/
+
+
+
+/* pie de  pagina*/
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:brown;
+    padding: 70px 0;
+}
+.col{
+   width: 50%;
+   padding: 0 15px;
+}
+.col h4{
+    font-family: 'Piedra', cursive;;
+    padding: 0px 120px;
+	font-size: 25px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.col ul{
+    padding: 0px 75px;
+}
+.redes{
+    padding: 0px 100px;
+}
+.col .redes li a{
+	display: inline-block;
+    text-decoration: none;
+    list-style:none;
+    font-size: medium;
+	height: 30px;
+	width: 30px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	color:beige;
+	transition: all 0.5s ease;
+}
+/*fin pie de pagina*/
+
+/*contenido vender formulario*/
+
+form{
+    width:500px;
+    height: 1000px;
+    margin:auto;
+    background:brown;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+
+}
+h3{
+    font-family: 'Piedra', cursive;;
+    color: beige;
+    text-align:center;
+    margin:0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+input{
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: 17px;
+    border:solid black  0.5px;
+    }
+
+
+textarea{ width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: 17px;
+    border:solid black 0.5px;
+
+}  
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: darkgoldenrod;
+    color:beige;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor:pointer
+}
+
+
